@@ -1,0 +1,7 @@
+observe.md
+CLAUDE.md
+__pycache__/
+*.pyc
+.venv/
+samples/subgraph.html
+*.egg-info/

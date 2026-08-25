@@ -1,0 +1,10 @@
+spacy==3.8.7
+networkx==3.5
+rank-bm25==0.2.2
+sentence-transformers>=3.0
+numpy>=2.0
+
+# after installing, fetch the spaCy model:
+#   python -m spacy download en_core_web_sm
+# the embedding model (all-MiniLM-L6-v2) downloads automatically via
+# sentence-transformers on first run and is cached locally after.
